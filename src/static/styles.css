@@ -63,6 +63,9 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .activity-card h4 {
@@ -71,7 +74,12 @@ section h3 {
 }
 
 .activity-card p {
-  margin-bottom: 8px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.activity-card p strong {
+  color: #333;
 }
 
 .form-group {
